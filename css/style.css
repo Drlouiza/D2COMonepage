@@ -1,0 +1,411 @@
+/*GENERAL*/
+*
+
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px; 
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h3
+{
+    font-size: 30px;
+    color: #444;
+    
+}
+h4 {
+   
+    margin-bottom: 20px;
+}
+
+/* Style du header */
+header {
+    height: 120px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    
+}
+
+header a img {/* Logo */
+    width: 400px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    padding-right: 50px;
+    margin: auto
+}
+
+header nav {/*nav barre*/
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    float: left;
+    display: inline-block;
+}
+
+header nav ul li a {/* Menu en majuscule dans la liste */
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none; 
+    color: inherit;
+}
+
+#main-header nav ul li:hover {/* Ajoutez l'effet d'animation */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+
+/*main-image section*/
+
+#main-image
+{
+    height: 580px;
+    margin-top: 150px;
+    background-image: url(image/Designe.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#main-image h2
+{
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin: 20px;
+    color: white;
+   text-align: center;
+   text-shadow: .07em .07em 0 black;
+}
+
+#main-image h2 strong{
+    color: red;
+}
+
+.button-container { /*centrer button-1 */
+ text-align: center;
+}
+
+.button-1
+{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto; 
+    line-height: 50px;
+    border-radius: 5px;
+    text-decoration: none; 
+    margin: 0 20px;
+}
+.button-1:hover
+{
+    background: #02b8dd;
+}
+
+
+/*section news google*/
+
+#news {
+    text-align: center; 
+    padding: 50px 0;
+    font-size: 18px;
+}
+
+#news .wrapper {
+    max-width: 800px; 
+    margin: 0 auto; /
+}
+
+#news p { 
+    margin: 20px 0; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    
+}
+
+
+/*offre starter*/
+#offer h3 /*titre profitez vite de notre promo*/
+{
+    color: darkblue;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4B4284;
+    text-shadow: .04em .03em 0 white;
+    
+}
+#offer h3 span{
+    color: red;
+    text-shadow: .07em .07em 0 black;
+}
+
+
+
+#offer {
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+.offer-list {
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.offer-list li {
+    width: 23%; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#offer-1 {/*img des éléments de l'offre*/
+    background-image: url('image/web.png');
+}
+
+#offer-2 {
+    background-image: url('image/nomdedomaine.png');
+}
+
+#offer-3 {
+    background-image: url('image/hebergement%20.png');
+}
+
+#offer-4 {
+    background-image: url('image/mesagerie.png');
+}
+
+
+
+#offer .offer-list li h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 14px
+}
+
+/*offre prix*/
+.animated-item {
+    opacity: 0;/*ANIMATION OFFRE SPECIALE*/
+    transform: translateX(-100px); 
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animated-item.animate {/*ANIMATION OFFRE SPECIALE*/
+    opacity: 1;
+    transform: translateX(0); 
+}
+
+
+
+#price { 
+    text-align: center; 
+    padding: 50px 0;
+    font-size: 18px;
+}
+
+#price .wrapper {
+    max-width: 800px; 
+    margin: 0 auto; /
+}
+
+.offer-special {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.offer-special h2 {
+    color: green;
+    font-size: 27px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#price p {
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    
+}
+
+.offer-special p {
+    font-size: 18px;
+}
+
+.offer-special p span{ /*prix offre*/
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+/*offre starter*/
+#contact h3
+{
+    color: darkblue;
+    font-weight: 799;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4B4284;
+    
+}
+
+#contact {
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+.contact-list {
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+#contact p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-list li {/*liste de contacte*/
+    width: 23%; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#contact-1 {
+    background-image: url('image/phone.png');
+}
+
+#contact-2 {
+    background-image: url('image/mail.png');
+}
+
+#contact-3 {
+    background-image: url('image/localisation.png');
+}
+
+
+#contact .contact-list li h4 {
+    
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#contact .contact-list li h4 a{
+    text-decoration: none;
+}
+
+.contact-item {/*animation */
+    opacity: 0;
+    transition: opacity 3s ease; 
+}
+
+.contact-item.show {
+    opacity: 1;
+}
+
+.contact-list li:hover {/* Zoom sur le survol */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+
+
+/*footer*/
+footer
+{
+    height: 100px;
+    background-color: #444;
+    
+}
+
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    color: #777;
+    line-height: 100px;
+    
+}
+
+
+
+/*ANIMATION offre spéciale*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text_shadows {
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+  animation: shadows 1.2s ease-in infinite, move 1.7s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
