@@ -130,7 +130,7 @@ header nav ul li a {/* Menu en majuscule dans la liste */
 
 #news .wrapper {
     max-width: 800px; 
-    margin: 0 auto; /
+    margin: 0 auto; 
 }
 
 #news p { 
@@ -229,7 +229,7 @@ header nav ul li a {/* Menu en majuscule dans la liste */
 
 #price .wrapper {
     max-width: 800px; 
-    margin: 0 auto; /
+    margin: 0 auto; 
 }
 
 .offer-special {
@@ -269,7 +269,7 @@ header nav ul li a {/* Menu en majuscule dans la liste */
 #contact h3
 {
     color: darkblue;
-    font-weight: 799;
+    font-weight: 799 ;
     font-size: 2em;
     text-transform: uppercase;
     text-align: center;
@@ -410,18 +410,15 @@ footer
   }
 }
 
-
-
-/*TEST FORMULAIRE*/
+/* FORMULAIRE DE CONTACT*/
 .container {
-    max-width: 500px;
+    max-width: 700px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 h2 {
     text-align: center;
 }
@@ -478,6 +475,22 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+/*message d'envoi de mail*/
+/*success*/
+.success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 10px;
+}
+
+/*error*/
+.error-message {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+}
 
 
 
