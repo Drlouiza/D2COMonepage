@@ -259,8 +259,8 @@ header nav ul li a {/* Menu en majuscule dans la liste */
 
 .offer-special p span{ /*prix offre*/
     color: green;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 26px;
 }
 
 
@@ -342,27 +342,6 @@ header nav ul li a {/* Menu en majuscule dans la liste */
     transition: transform 0.3s ease;
 }
 
-
-
-/*footer*/
-footer
-{
-    height: 100px;
-    background-color: #444;
-    
-}
-
-.copyright
-{
-    text-align: center;
-    font-weight: bold;
-    color: #777;
-    line-height: 100px;
-    
-}
-
-
-
 /*ANIMATION offre spéciale*/
 
 *,
@@ -381,7 +360,7 @@ footer
   font-family: bungee, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: calc(2rem + 5vw);
+  font-size: calc(3rem + 5vw);
   text-align: center;
   margin: 0;
   color: var(--color-primary);
@@ -458,6 +437,10 @@ textarea {
     resize: vertical;
     min-height: 100px;
 }
+.rgpd{
+    color: red;
+}
+
 
 button[type="submit"] {
     background-color: #007bff;
@@ -493,8 +476,22 @@ button[type="submit"]:hover {
 }
 
 
+/*footer*/
+footer
+{
+    height: 100px;
+    background-color: #444;
+    
+}
 
-
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    color: #777;
+    line-height: 100px;
+    
+}
 
 
 
